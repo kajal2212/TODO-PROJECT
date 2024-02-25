@@ -1,0 +1,86 @@
+body{
+  background-color:  #000000bd;
+  color: white;
+  text-align: center;
+}
+/* heading */
+.app h1{
+  
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-shadow:1px -1px 8px #00ffde;
+  
+}
+
+/* Mytodoadd css */
+
+.todo-wrapper{
+  
+  font-size: 20px;
+  text-decoration: none;
+  color: #00faff82;
+  
+}
+
+.add-inputs{
+  display: flex;
+  padding:35px 219px 5px 222px;
+}
+.input-items{
+  flex: 1;
+}
+
+input{
+  outline: none;
+}
+
+label{
+  padding: 9px;
+}
+
+button{
+  cursor: pointer;
+  background-color: aqua;
+  width: 75px;
+  height: 26px;
+  margin-top: 24px;
+  margin-left: 11px;
+  box-shadow: 2px 2px 5px black;
+}
+
+button:focus{
+  background-color: #D81B60;
+}
+hr{
+  width: 75%;
+  align-items: center;
+}
+
+/*Mytodolist css  */
+
+ul{
+  display: flex;
+  list-style-type: none;
+  width: 255px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 575px;
+  
+ 
+}
+
+ul li{
+  flex: 1;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid aquamarine;
+  background-color: #26a69a;
+ 
+}
+.del-icon{
+  color: #D81B60;
+  font-size: 20px;
+  cursor: pointer;
+  float: right;
+  
+}
